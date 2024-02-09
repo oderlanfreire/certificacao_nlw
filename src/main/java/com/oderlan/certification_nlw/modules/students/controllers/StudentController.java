@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.oderlan.certification_nlw.modules.students.dto.VerifyCertificationDTO;
 import com.oderlan.certification_nlw.modules.students.useCases.VerifyIfHasCertificationUseCase;
-import com.oderlan.certification_nlw.modules.students.useCases.verifyIfHasCertificationUseCase;
+
 
 @RestController
 @RequestMapping("/students")
