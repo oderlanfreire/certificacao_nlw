@@ -1,5 +1,6 @@
-package com.oderlan.certification_nlw.modules.students.questions.dto;
+package com.oderlan.certification_nlw.modules.questions.dto;
 
+import java.util.List;
 import java.util.UUID;
 
 import lombok.AllArgsConstructor;
@@ -11,9 +12,10 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-public class AlternativesResultDTO {
-    
+public class QuestionResultDTO {
     private UUID id;
-
+    private String technology;
     private String description;
+    
+    private List<AlternativesResultDTO> alternatives;
 }

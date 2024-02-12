@@ -1,4 +1,4 @@
-package com.oderlan.certification_nlw.modules.students.questions.controller;
+package com.oderlan.certification_nlw.modules.questions.controller;
 
 import java.util.List;
 import java.util.stream.Collectors;
@@ -9,11 +9,12 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.oderlan.certification_nlw.modules.students.questions.dto.AlternativesResultDTO;
-import com.oderlan.certification_nlw.modules.students.questions.dto.QuestionResultDTO;
-import com.oderlan.certification_nlw.modules.students.questions.entities.AlternativesEntity;
-import com.oderlan.certification_nlw.modules.students.questions.entities.QuestionEntity;
-import com.oderlan.certification_nlw.modules.students.questions.repositories.QuestionRepository;
+import com.oderlan.certification_nlw.modules.questions.repositories.QuestionRepository;
+import com.oderlan.certification_nlw.modules.questions.dto.AlternativesResultDTO;
+import com.oderlan.certification_nlw.modules.questions.dto.QuestionResultDTO;
+import com.oderlan.certification_nlw.modules.questions.entities.AlternativesEntity;
+import com.oderlan.certification_nlw.modules.questions.entities.QuestionEntity;
+
 
 @RestController
 @RequestMapping("/questions")

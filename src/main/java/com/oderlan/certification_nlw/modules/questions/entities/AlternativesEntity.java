@@ -1,4 +1,4 @@
-package com.oderlan.certification_nlw.modules.students.questions.entities;
+package com.oderlan.certification_nlw.modules.questions.entities;
 
 import java.time.LocalDateTime;
 import java.util.UUID;
